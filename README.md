@@ -3,18 +3,14 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Contributing](#contributing)
+
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This is a game where the player is expected to search through shuffled cards to find the matching pairs until all the pairs in the deck are found
 
-To get started, open `js/app.js` and start building out the app's functionality
+To get started, click on any of the cards, and memorise the content of the card, therefore look for the other member of the pair and continue this until all is found.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Link
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+ check out  https://bobobeehood.github.io/Memory-Matching-Game/
