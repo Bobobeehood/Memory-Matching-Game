@@ -1,5 +1,7 @@
-
- 
+ /*
+ * Create a list that holds all of your cards
+ */
+ const deck = document.querySelector('.deck');
  let clockId;
  let cardSwitched = [];
  let offClock = true;
@@ -7,12 +9,9 @@
  let time = 0;
  let matched = 0; 
  time = 0;
- //displayTime();
  moves = 0;
- //scoreCard();
  const totalCardsPairs = 8;
- //noteWindowData();
-// toSwitchModal();
+ 
  
  const cardList = ["fa-diamond", "fa-paper-plane-o", "fa-anchor", "fa-bolt", "fa-cube", "fa-leaf", "fa-bicycle", "fa-bomb"];
 
@@ -46,11 +45,7 @@ function moveCount() {
 	movesNum.innerHTML = moves;
 }
  
- /*
- * Create a list that holds all of your cards
- */
- const deck = document.querySelector('.deck');
- 
+
  
  /* The function below shuffle the deck of cards*/
  
@@ -138,7 +133,7 @@ function moveCount() {
  
  
  function hideStar() {
-	 const starList = document.querySelectorAll('.star li');
+	 const starList = document.querySelectorAll('.stars li');
 	 for(star of starList) {
 		 if(star.style.display !== 'none') {
 			 star.style.display = 'none';
