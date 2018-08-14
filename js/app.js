@@ -9,6 +9,7 @@
  let time = 0;
  let matched = 0; 
  time = 0;
+ moves = 0;
  const totalCardsPairs = 8;
  
  
@@ -64,7 +65,6 @@ function moveCount() {
   */
  deck.addEventListener('click', evt => {
 	 const clickTarget = evt.target;
-	 resetStars();
 	 if (userGuessValid(clickTarget)){ 
 	 	if (offClock) {
 			startClock();
