@@ -64,7 +64,7 @@ function moveCount() {
   */
  deck.addEventListener('click', evt => {
 	 const clickTarget = evt.target;
-	 createStars()
+	 resetStars();
 	 if (userGuessValid(clickTarget)){ 
 	 	if (offClock) {
 			startClock();
@@ -74,7 +74,7 @@ function moveCount() {
 	 addswitchedCard(clickTarget);
 	 if(cardSwitched.length === 2) {
 		 checkIfSame(clickTarget);
-		 moveCount();
+		 resetMoves();
 		 scoreCard();
 	 }
 	 }
@@ -125,15 +125,6 @@ function moveCount() {
 	 card.classList.toggle('show');
  }
  
-function createStars() {
-	for (let j = 0; j < 5; j++){
-		const starElement = document.createElement('li');
-		starElement.classList.add('star');
-		papaStar.appendChild(starElement);
-	}
-
-	stars = document.querySelectorAll('.star li');
-}
  
  function scoreCard() {
 	 if (moves === 12 || moves === 18) {
