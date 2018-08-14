@@ -74,7 +74,7 @@ function moveCount() {
 	 addswitchedCard(clickTarget);
 	 if(cardSwitched.length === 2) {
 		 checkIfSame(clickTarget);
-		 resetMoves();
+		 moveCount();
 		 scoreCard();
 	 }
 	 }
