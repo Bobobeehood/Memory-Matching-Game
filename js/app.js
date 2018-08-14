@@ -125,9 +125,18 @@ function moveCount() {
 	 card.classList.toggle('show');
  }
  
+function createStars() {
+	for (let j = 0; j < 5; j++){
+		const starElement = document.createElement('li');
+		starElement.classList.add('fas', 'fa-star');
+		papaStar.appendChild(starElement);
+	}
+
+	stars = document.querySelectorAll('.fa-star');
+}
  
  function scoreCard() {
-	 if (moves === 16 || moves === 24) {
+	 if (moves === 12 || moves === 18) {
 		 hideStar(); }
  }
  
