@@ -65,6 +65,7 @@ function moveCount() {
   */
  deck.addEventListener('click', evt => {
 	 const clickTarget = evt.target;
+	 createStars()
 	 if (userGuessValid(clickTarget)){ 
 	 	if (offClock) {
 			startClock();
@@ -128,11 +129,11 @@ function moveCount() {
 function createStars() {
 	for (let j = 0; j < 5; j++){
 		const starElement = document.createElement('li');
-		starElement.classList.add('fas', 'fa-star');
+		starElement.classList.add('star');
 		papaStar.appendChild(starElement);
 	}
 
-	stars = document.querySelectorAll('.fa-star');
+	stars = document.querySelectorAll('.star li');
 }
  
  function scoreCard() {
