@@ -9,7 +9,6 @@
  let time = 0;
  let matched = 0; 
  time = 0;
- moves = 0;
  const totalCardsPairs = 8;
  
  
