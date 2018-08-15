@@ -127,7 +127,7 @@ function moveCount() {
  
  
  function scoreCard() {
-	 if (moves === 12 || moves === 18) {
+	 if (moves === 16 || moves === 24) {
 		 hideStar(); }
  }
  
