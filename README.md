@@ -16,8 +16,8 @@ This is a game where the player is expected to search through shuffled cards to 
 3. You have to match cards with identical icon.
 4. Your moves are counted as you play the game.
 5. Try to win the game with as little moves as possible.
-6. If your moves are equal to 16 then you will get 3 Stars.
-7. If your moves are greater than 16 and less than 24 then you will get 2 Stars.
+6. If your moves are <= 8 then you will get 3 Stars.
+7. If your moves are greater than 8 but less than 16 then you will get 2 Stars.
 8. Else you will get 1 Star.
 
 ## Link
