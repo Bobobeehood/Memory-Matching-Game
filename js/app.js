@@ -128,7 +128,7 @@ function moveCount() {
  
  
  function scoreCard() {
-	 if (moves === 16 || moves === 24) {
+	 if (moves === 8 || moves === 16) {
 		 hideStar(); }
  }
  
@@ -142,8 +142,8 @@ function moveCount() {
 		 }
 	 }
  }
- hideStar();
- hideStar();
+ //hideStar();
+ //hideStar();
  
  
  /* Below code starts time count from the very first click */
