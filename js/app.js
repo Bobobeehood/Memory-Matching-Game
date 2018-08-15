@@ -135,7 +135,7 @@ function moveCount() {
  
  function hideStar() {
 	 const starList = document.querySelectorAll('.stars li');
-	 for(star of starList) {
+	 for(let i = 0; i <=4; i++) {
 		 if(star.style.display !== 'none') {
 			 star.style.display = 'none';
 			 break;
