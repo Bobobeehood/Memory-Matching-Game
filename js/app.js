@@ -11,7 +11,7 @@
  time = 0;
  moves = 0;
  const totalCardsPairs = 8;
- starRating = 3;
+ 
  
  
  const cardList = ["fa-diamond", "fa-paper-plane-o", "fa-anchor", "fa-bolt", "fa-cube", "fa-leaf", "fa-bicycle", "fa-bomb"];
@@ -135,7 +135,7 @@ function moveCount() {
  
  function hideStar() {
 	 const starList = document.querySelectorAll('.stars li');
-	 for(let i = 0; i < 4; i++) {
+	 for(let i = 0; i < 5; i++) {
 		 if(star.style.display !== 'none') {
 			 star.style.display = 'none';
 			 break;
